@@ -6,7 +6,7 @@ type CountOfNucleotides = {
 };
 
 export function nucleotideCounts(sequence: string): CountOfNucleotides {
-    let returnValue: CountOfNucleotides = {
+    const returnValue: CountOfNucleotides = {
         A: 0,
         C: 0,
         G: 0,
